@@ -1,0 +1,30 @@
+{% extends 'core/base.html'%}
+
+
+{% load static %}
+
+{% block content-about %}
+
+<section class="page-section about-heading">
+    <div class="container">
+        <img class="img-fluid rounded about-heading-img mb-3 mb-lg-0" src="{%  static 'core/img/DELTA.jpg' %}" alt="..." />
+        <div class="about-heading-content">
+            <div class="row">
+                <div class="col-xl-9 col-lg-10 mx-auto">
+                    <div class="bg-faded rounded p-5">
+                        <h2 class="section-heading mb-4">
+                            <span class="section-heading-upper">Proximamente</span>
+                            <span class="section-heading-lower">Metal Gear Solid: Delta</span>
+                        </h2>
+                        <p class="parrafo">​​Metal Gear Solid Delta: Snake Eater será un remake del videojuego de 2004 desarrollado por Konami Entertainment, Metal Gear Solid 3: Snake Eater. Se reveló durante el PlayStation Showcase de 2023.</p>
+                        <p class="parrafo" class="mb-0">
+                            El videojuego contará con las voces del título original. Asimismo, tanto Hideo Kojima como Yoji Shinkawa, y los artistas del juego original no están involucrados en el desarrollo.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+{% endblock content-about %}
